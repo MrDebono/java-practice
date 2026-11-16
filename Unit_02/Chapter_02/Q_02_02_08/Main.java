@@ -19,6 +19,7 @@ public class Main {
         }
     } else {
         System.out.println("not a triangle");
-    }
-}
+    } 
+    input.close();
+} 
 }
