@@ -4,12 +4,15 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scannerObj = new Scanner(System.in);
-        int number = scannerObj.nextInt();
+        String country = scannerObj.nextLine();
 
-        for(int i = 0; i < number; i++) {
-            System.out.println("meow");
+        if (country.equals("Argentina")) {
+            System.out.println("Lionel Messi");
+        } else if (country.equals("Portugal")) {
+            System.out.println("Cristiano Ronaldo");
+        } else {
+            System.out.println("no preference");
         }
-        
-    }
-
+        scannerObj.close();
+    }     
 }
