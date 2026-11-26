@@ -37,7 +37,7 @@ Each row links to the problem statement. IDs follow `Unit-Chapter-Question`.
 | [02-04-03](Chapter_04/Q_02_04_03/02-04-03.md) | Hit the Bullseye                   |
 
 
-## Chapter 5 - Nested loops
+## Chapter 5 - Nested Loops
 
 | Problem                            | Title                     |
 | ---------------------------------- | ------------------------- |
